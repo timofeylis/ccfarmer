@@ -1,0 +1,3 @@
+# ccfarmer
+Fun little farming robot programmed in lua for the computercraft mod in minecraft. There were some fixes made after I saved this, but I can't find the updated file
+The first two specified values are the columns and rows of the farm, and the bot assumes it starts directly behind the bottom left block of the farm. It has a "seed" mode in which the bot locates and uses seeds in its inventory in order to plant the farm, and a default mode in which it checks each block for the crop's harvestability status, and replaces any broken crops. The bot also automatically locates and uses and fuel in its inventory.
