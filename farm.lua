@@ -111,7 +111,7 @@ for i=1,col do
    end
 end
 if turtle.getFuelLevel() == 0 then
-    print("dumb bitch juice. call tim")
+    print("something obviously went wrong")
 end
  
 for i=1,15 do
