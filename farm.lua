@@ -64,7 +64,7 @@ for i=1,row do
     if success == false then
         turtle.digDown()
         plant()
-    if data.state.age == 7 then
+    elseif data.state.age == 7 then
         turtle.digDown()
         turtle.suckDown()
         plant()
